@@ -19,7 +19,7 @@ const CompanyPage = () => {
           <div className="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-xl p-8">
             <h2 className="text-2xl md:text-3xl font-semibold mb-4">Our Story</h2>
             <p className="text-gray-300">
-              Founded in 2019 by a team of developers frustrated with existing email solutions, 
+              Founded in 2025 by Founder Priyam Sharma frustrated with existing email solutions, 
               DEVMAILS has grown from a small startup to a trusted email delivery platform 
               used by thousands of companies worldwide. Our focus remains on providing 
               developers with the tools they need to ensure their emails reach human inboxes, not spam folders.
@@ -30,15 +30,13 @@ const CompanyPage = () => {
             <h2 className="text-2xl md:text-3xl font-semibold mb-6">Meet the Founder</h2>
             <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
               <div className="w-32 h-32 bg-gradient-to-r from-purple-700 to-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-3xl font-bold">JD</span>
+                <span className="text-3xl font-bold">PS</span>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
+                <h3 className="text-xl font-semibold mb-2">Priyam Sharma</h3>
                 <p className="text-gray-400 mb-4">CEO & Founder</p>
                 <p className="text-gray-300">
-                  With over 15 years of experience in software development and email infrastructure, 
-                  Jane recognized the need for a developer-first email delivery service that prioritizes 
-                  deliverability without sacrificing ease of use.
+                 With Experience in Web Development and Market research. He is great at problem-solving.
                 </p>
               </div>
             </div>
@@ -51,11 +49,11 @@ const CompanyPage = () => {
             <p className="text-gray-400">Uptime</p>
           </div>
           <div className="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-xl p-6 text-center">
-            <div className="text-4xl font-bold text-purple-500 mb-2">150M+</div>
+            <div className="text-4xl font-bold text-purple-500 mb-2">150,000+</div>
             <p className="text-gray-400">Emails Delivered Daily</p>
           </div>
           <div className="bg-black/40 backdrop-blur-sm border border-gray-800 rounded-xl p-6 text-center">
-            <div className="text-4xl font-bold text-purple-500 mb-2">15,000+</div>
+            <div className="text-4xl font-bold text-purple-500 mb-2">5,000+</div>
             <p className="text-gray-400">Businesses Served</p>
           </div>
         </section>
@@ -113,7 +111,7 @@ const CompanyPage = () => {
                   <span className="text-xs font-bold">AB</span>
                 </div>
                 <div>
-                  <p className="font-semibold">Alex Brown</p>
+                  <p className="font-semibold">NO ONE</p>
                   <p className="text-xs text-gray-400">CTO at TechStart</p>
                 </div>
               </div>
@@ -134,7 +132,7 @@ const CompanyPage = () => {
                   <span className="text-xs font-bold">SM</span>
                 </div>
                 <div>
-                  <p className="font-semibold">Sarah Miller</p>
+                  <p className="font-semibold">NO ONE</p>
                   <p className="text-xs text-gray-400">Lead Developer at ShopStream</p>
                 </div>
               </div>
