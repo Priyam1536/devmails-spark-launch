@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import HeroTag from './HeroTag';
+import { Link } from 'react-router-dom';
 
 const HeroContent: React.FC = () => {
   return (
@@ -28,17 +29,21 @@ const HeroContent: React.FC = () => {
         className="flex flex-wrap gap-4 mt-6 animate-fade-zoom-in opacity-0"
         style={{ animationDelay: "900ms", animationFillMode: "forwards" }}
       >
-        <Button 
-          variant="outline" 
-          className="rounded-full text-[#5b22c6] border-[#2a2a2a] hover:bg-[#1a1a1a] px-5 py-6"
-        >
-          Documentation &gt;
-        </Button>
-        <Button 
-          className="rounded-full bg-secondary text-secondary-foreground hover:bg-gray-400 px-8 py-6"
-        >
-          Get started &gt;
-        </Button>
+        <Link to="/subscription">
+          <Button 
+            variant="outline" 
+            className="rounded-full text-[#5b22c6] border-[#2a2a2a] hover:bg-[#1a1a1a] px-5 py-6"
+          >
+            Subscription &gt;
+          </Button>
+        </Link>
+        <Link to="/getstarted">
+          <Button 
+            className="rounded-full bg-secondary text-secondary-foreground hover:bg-gray-400 px-8 py-6"
+          >
+            Get started &gt;
+          </Button>
+        </Link>
       </div>
     </div>
   );
