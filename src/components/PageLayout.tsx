@@ -10,11 +10,11 @@ interface PageLayoutProps {
 
 const PageLayout: React.FC<PageLayoutProps> = ({ children, className = "" }) => {
   return (
-    <div className="min-h-screen relative overflow-x-hidden">
+    <div className={`min-h-screen relative ${className}`}>
       <GradientBackground />
-      <div className="container mx-auto relative">
+      <div className="relative">
         <Navbar />
-        <main className={`flex justify-center min-h-screen flex-col pt-10 md:pt-0 ${className}`}>
+        <main>
           {children}
         </main>
       </div>
