@@ -77,7 +77,7 @@ const SubscriptionPage = () => {
     },
     {
       title: "Developer",
-      price: "$29",
+      price: "₹1500",
       description: "Ideal for small businesses and growing projects",
       features: [
         "25,000 emails per month",
@@ -92,7 +92,7 @@ const SubscriptionPage = () => {
     },
     {
       title: "Business",
-      price: "$99",
+      price: "₹3000",
       description: "For established businesses with high email needs",
       features: [
         "100,000 emails per month",
