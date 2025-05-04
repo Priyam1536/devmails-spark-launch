@@ -47,7 +47,7 @@ const SplineViewer: React.FC<SplineViewerProps> = ({ url }) => {
   return (
     <div 
       ref={containerRef}
-      className="spline-container animate-fade-zoom-in opacity-0" 
+      className="spline-container animate-fade-zoom-in opacity-0 absolute top-0 right-0 w-[600px] h-[600px] pointer-events-none z-10" 
       style={{ animationDelay: "1200ms", animationFillMode: "forwards" }}
     />
   );
