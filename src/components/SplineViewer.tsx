@@ -27,6 +27,10 @@ const SplineViewer: React.FC<SplineViewerProps> = ({ url }) => {
         // Add to container when script is loaded
         script.onload = () => {
           if (containerRef.current) {
+            // Clear any existing viewers first
+            while (containerRef.current.firstChild) {
+              containerRef.current.removeChild(containerRef.current.firstChild);
+            }
             containerRef.current.appendChild(viewer);
           }
         };
